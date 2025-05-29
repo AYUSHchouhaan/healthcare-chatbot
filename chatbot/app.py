@@ -18,11 +18,13 @@ st.set_page_config(page_title="Q&A User Support Chatbot", page_icon="🤖")
 st.header("healthcare Chatbot 🤖 Ask Anything")
 def get_response(question):
     safe_prompt = (
-        "You are a helpful and informative assistant, not a doctor. "
-        "You may provide general health and wellness information, but you should always say: "
-        "'This is not medical advice. Consult a healthcare provider for professional guidance.'\n\n"
-        f"User: {question}\nAssistant:"
+    "You are a knowledgeable and responsible health assistant. "
+    "You can provide general information about common health issues, including possible over-the-counter medicines, natural remedies, and precautions. "
+    "Make it clear that this is not professional medical advice. Always include the disclaimer: "
+    "'This is not medical advice. Please consult a qualified healthcare provider before starting any treatment.'\n\n"
+    f"User: {question}\nAssistant:"
     )
+
 
     response = client.chat.completions.create(
         model="llama3-70b-8192",
