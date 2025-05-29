@@ -1,0 +1,51 @@
+Medicine Name,Active Ingredients,Usage,Side Effects,Alternatives,Expiry Date
+Clarithromycin,Omeprazole,Bacterial infection,"headache, diarrhea",Cetirizine;Fexofenadine,2026-01-12
+Amoxicillin,Amoxicillin,Allergy relief,drowsiness,Clarithromycin;Doxycycline,2026-02-25
+Omeprazole,Ibuprofen,Acid reflux,"headache, diarrhea",Omeprazole;Ranitidine,2025-07-24
+Amoxicillin,Ibuprofen,Allergy relief,"drowsiness, headache",Paracetamol;Aspirin,2027-01-15
+Clarithromycin,Metformin,Acid reflux,stomach upset,Glipizide;Glyburide,2024-11-05
+Pantoprazole,Aspirin,Allergy relief,"nausea, vomiting",Ibuprofen;Aspirin,2025-12-25
+Loratadine,Pantoprazole,Fever and pain relief,"diarrhea, nausea",Levocetirizine;Fexofenadine,2026-03-01
+Aspirin,Pantoprazole,Bacterial infection,stomach upset,Glipizide;Glyburide,2026-12-27
+Omeprazole,Cetirizine,Allergy relief,"drowsiness, headache",Clarithromycin;Doxycycline,2025-09-27
+Ibuprofen,Omeprazole,Blood sugar control,"nausea, diarrhea, abdominal pain",Paracetamol;Aspirin,2025-08-20
+Ibuprofen,Acetaminophen,Blood sugar control,"drowsiness, headache",Paracetamol;Aspirin,2026-03-14
+Pantoprazole,Amoxicillin,Blood sugar control,"nausea, diarrhea, abdominal pain",Omeprazole;Ranitidine,2026-03-21
+Aspirin,Cetirizine,Bacterial infection,"nausea, vomiting",Ibuprofen;Paracetamol,2026-02-08
+Loratadine,Cetirizine,Acid reflux,stomach upset,Paracetamol;Aspirin,2026-01-23
+Amoxicillin,Amoxicillin,Bacterial infection,"drowsiness, headache",Ibuprofen;Paracetamol,2026-02-18
+Metformin,Aspirin,Bacterial infection,"nausea, vomiting",Ranitidine;Pantoprazole,2025-11-27
+Pantoprazole,Metformin,Pain and fever relief,stomach upset,Amoxicillin;Doxycycline,2025-04-10
+Pantoprazole,Aspirin,Acid reflux,drowsiness,Cetirizine;Fexofenadine,2026-06-02
+Paracetamol,Loratadine,Bacterial infection,drowsiness,Ibuprofen;Aspirin,2025-08-06
+Cetirizine,Loratadine,Blood sugar control,"nausea, vomiting",Ranitidine;Pantoprazole,2025-12-19
+Ibuprofen,Loratadine,Allergy relief,stomach upset,Ranitidine;Pantoprazole,2026-03-14
+Omeprazole,Pantoprazole,Pain relief,"nausea, dizziness",Levocetirizine;Fexofenadine,2025-12-03
+Metformin,Clarithromycin,Acid reflux,"nausea, diarrhea, abdominal pain",Ibuprofen;Aspirin,2026-04-12
+Cetirizine,Cetirizine,Fever and pain relief,"headache, diarrhea",Ibuprofen;Paracetamol,2025-06-29
+Metformin,Acetaminophen,Bacterial infection,"headache, diarrhea",Clarithromycin;Doxycycline,2026-05-05
+Cetirizine,Amoxicillin,Acid reflux,stomach upset,Omeprazole;Ranitidine,2026-03-07
+Ibuprofen,Loratadine,Fever and pain relief,"nausea, vomiting",Amoxicillin;Doxycycline,2025-04-25
+Paracetamol,Cetirizine,fever and pain relief,"diarrhea, nausea",Ibuprofen;Paracetamol,2025-03-03
+Metformin,Loratadine,Pain and fever relief,"nausea, vomiting",Ibuprofen;Paracetamol,2025-10-14
+Cetirizine,Acetaminophen,Allergy relief,"nausea, diarrhea, abdominal pain",Clarithromycin;Doxycycline,2025-05-01
+Aspirin,Metformin,Allergy relief,"nausea, diarrhea, abdominal pain",Ibuprofen;Paracetamol,2025-12-10
+Pantoprazole,Aspirin,Acid reflux,"nausea, diarrhea, abdominal pain",Ibuprofen;Aspirin,2026-05-01
+Aspirin,Clarithromycin,Allergy relief,"diarrhea, nausea",Amoxicillin;Doxycycline,2026-02-23
+Ibuprofen,Omeprazole,Acid reflux,"nausea, vomiting",Ranitidine;Pantoprazole,2025-10-12
+Pantoprazole,Loratadine,Pain and fever relief,drowsiness,Amoxicillin;Doxycycline,2025-04-09
+Paracetamol,Cetirizine,Pain and fever relief,drowsiness,Glipizide;Glyburide,2025-04-02
+Loratadine,Amoxicillin,Allergy relief,stomach upset,Ibuprofen;Aspirin,2026-03-29
+Amoxicillin,Acetaminophen,Pain relief,"nausea, diarrhea, abdominal pain",Clarithromycin;Doxycycline,2026-08-28
+Aspirin,Metformin,Bacterial infection,drowsiness,Ibuprofen;Paracetamol,2026-01-02
+Amoxicillin,Acetaminophen,Bacterial infection,"headache, diarrhea",Paracetamol;Aspirin,2026-03-03
+Aspirin,Acetaminophen,Blood sugar control,"nausea, diarrhea, abdominal pain",Ibuprofen;Aspirin,2025-06-07
+Cetirizine,Loratadine,Acid reflux,"drowsiness, headache",Ranitidine;Pantoprazole,2025-09-05
+Amoxicillin,Aspirin,Allergy relief,"nausea, vomiting",Cetirizine;Fexofenadine,2025-08-26
+Pantoprazole,Loratadine,Bacterial infection,"nausea, vomiting",Clarithromycin;Doxycycline,2025-08-01
+Clarithromycin,Ibuprofen,Allergy relief,"nausea, dizziness",Glipizide;Glyburide,2025-04-23
+Paracetamol,Loratadine,Fever and pain relief,"diarrhea, nausea",Ibuprofen;Paracetamol,2026-03-17
+Pantoprazole,Pantoprazole,Pain and fever relief,"nausea, dizziness",Amoxicillin;Doxycycline,2026-09-30
+Clarithromycin,Metformin,Blood sugar control,drowsiness,Paracetamol;Aspirin,2025-06-11
+Omeprazole,Aspirin,Bacterial infection,drowsiness,Levocetirizine;Fexofenadine,2025-05-02
+Cetirizine,Acetaminophen,Pain and fever relief,"nausea, diarrhea, abdominal pain",Cetirizine;Fexofenadine,2025-12-19
