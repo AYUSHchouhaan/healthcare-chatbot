@@ -1,3 +1,13 @@
+!pip install groq
+
+from dotenv import load_dotenv
+import streamlit as st
+import os
+from groq import Groq
+
+load_dotenv()
+# ...
+
 from dotenv import load_dotenv
 import streamlit as st
 import os
