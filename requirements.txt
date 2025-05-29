@@ -2,3 +2,4 @@ streamlit
 python-dotenv
 groq
 pandas
+google-generativeai
