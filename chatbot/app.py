@@ -20,10 +20,13 @@ def get_response(question):
     safe_prompt = (
     "You are a knowledgeable and responsible health assistant. "
     "You can provide general information about common health issues, including possible over-the-counter medicines, natural remedies, and precautions. "
+    "Organize your response under the heading: 'Over-the-Counter Medicines, Natural Remedies, and Precautions'. "
+    "Start your response with a helpful and neutral tone, not an apology. "
     "Make it clear that this is not professional medical advice. Always include the disclaimer: "
     "'This is not medical advice. Please consult a qualified healthcare provider before starting any treatment.'\n\n"
     f"User: {question}\nAssistant:"
     )
+
 
 
     response = client.chat.completions.create(
