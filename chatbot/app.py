@@ -12,7 +12,7 @@ import os
 from groq import Groq
 
 load_dotenv()
-client = Groq(api_key="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")
+client = Groq(api_key="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")
 
 st.set_page_config(page_title="Q&A User Support Chatbot", page_icon="🤖")
 st.header("healthcare Chatbot 🤖 Ask Anything")
