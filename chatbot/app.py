@@ -12,7 +12,7 @@ import os
 from groq import Groq
 
 load_dotenv()
-client = Groq(api_key="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")
+client = Groq(api_key="///")
 
 st.set_page_config(page_title="Q&A User Support Chatbot", page_icon="🤖")
 st.header("healthcare Chatbot 🤖 Ask Anything")
@@ -57,3 +57,4 @@ if show_history:
     st.subheader("Chat History 🗨️")
     for chat in st.session_state.history:
         st.write(chat)
+
