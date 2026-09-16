@@ -17,6 +17,15 @@ client = Groq(api_key="///")
 st.set_page_config(page_title="Q&A User Support Chatbot", page_icon="🤖")
 st.header("healthcare Chatbot 🤖 Ask Anything")
 def get_response(question):
+    # Short-circuit common greetings to avoid calling the external API for trivial inputs.
+    text = (question or "").strip().lower()
+    if text in {"hi", "hello", "hey"}:
+        return (
+            "Hello! I'm a healthcare chatbot and medicine assistant. I can provide general information about common "
+            "health issues, over-the-counter medicines, and precautions. This is not medical advice. Please consult a "
+            "qualified healthcare provider for personalized guidance."
+        )
+
     safe_prompt = (
     "You are a knowledgeable and responsible health assistant. "
     "You can provide general information about common health issues, including possible over-the-counter medicines, natural remedies, and precautions. "
@@ -27,18 +36,19 @@ def get_response(question):
     f"User: {question}\nAssistant:"
     )
 
-
-
-    response = client.chat.completions.create(
-        model="llama3-70b-8192",
-        messages=[
-            {"role": "user", "content": safe_prompt}
-        ],
-        temperature=0.7,
-        max_tokens=512
-    )
-    return response.choices[0].message.content
-
+    try:
+        response = client.chat.completions.create(
+            model="llama3-70b-8192",
+            messages=[
+                {"role": "user", "content": safe_prompt}
+            ],
+            temperature=0.7,
+            max_tokens=512
+        )
+        return response.choices[0].message.content
+    except Exception:
+        # Graceful fallback if the external service is unreachable
+        return "Sorry, I'm unable to reach the assistant service right now. Please try again later."
 user_input = st.text_input("Ask your question:", key="input")
 submit = st.button("Ask the question ✨")
 show_history = st.checkbox("Show Chat History 🗨️")
